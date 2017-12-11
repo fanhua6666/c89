@@ -1,0 +1,22 @@
+{
+    "name": "fanhua6666/c89kangjia",
+    "description": "c89框架系统",
+    "type": "project",
+    "authors": [
+        {
+            "name": "鹏晨",
+            "email": "1186183657@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+        "files":[
+            "system/helper.php"
+        ],
+        "psr-4":{
+            "houdunwang\\":"houdunwang\\",
+            "app\\":"app\\"
+        }
+    }
+}
